@@ -1,8 +1,7 @@
-a,b=input().split()
+a, b = input().split()
 a=int(a)
 b=int(b)
-
-if(a!=b):
+if(a or b):
     print(1)
-else :
+else:
     print(0)
